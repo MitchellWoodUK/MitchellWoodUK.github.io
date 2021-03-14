@@ -22,6 +22,16 @@
 #banner-image {
     opacity: 85%;
     width: 100vw;
-    height: 500vh;
+    height: 40vh;
     object-fit: cover;
+}
+
+/*----HOME SCREEN----*/
+.main{
+    background-color: #2C3E40;
+
+}
+#footer{
+    background-color: #73675C;
+    height: 6vh;
 }
