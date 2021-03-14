@@ -18,12 +18,47 @@
 .nav-item{
     padding-right: 5vw;
 }
+
+
 /*----BANNER----*/
 #banner-image {
-    opacity: 85%;
+    opacity: 80%;
     width: 100vw;
     height: 40vh;
     object-fit: cover;
+    position: fixed;
+}
+#banner{
+    padding-right: 0;
+    padding-left: 0;
+}
+#banner-cover{
+    background-color: black;
+    opacity: 60%;
+    margin-top: 20vh;
+    width: 100vw;
+    height: 20vh;
+    position: fixed;
+
+}
+#banner-text-welcome{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    padding-top: 2.5vh;
+    text-decoration: underline;
+    font-weight: bold;
+    position: center;
+}
+.banner-text{
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5vh;
+    position: center;
+
+
 }
 
 /*----HOME SCREEN----*/
@@ -34,8 +69,4 @@
 #footer{
     background-color: #73675C;
     height: 6vh;
-}
-#banner{
-    padding-right: 0px;
-    padding-left: 0px;
 }
