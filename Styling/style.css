@@ -18,3 +18,10 @@
 .nav-item{
     padding-right: 5vw;
 }
+/*----BANNER----*/
+#banner-image {
+    opacity: 85%;
+    width: 100vw;
+    height: 500vh;
+    object-fit: cover;
+}
