@@ -46,19 +46,29 @@
 /*----HOME SCREEN----*/
 .main{
     background-color: #2C3E40;
-
-
+}
+#Home-Boxes{
+    margin-bottom: 10vh;
+}
+#box1{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    margin-top: 4vh;
+}
+#box2{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    margin-top: 4vh;
+}
+#box3{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    margin-top: 4vh;
 }
 #footer{
     background-color: #73675C;
     height: 6vh;
-}
-#box1{
-    background-color: aqua;
-}
-#box2{
-    background-color: aqua;
-}
-#box3{
-    background-color: aqua;
 }
