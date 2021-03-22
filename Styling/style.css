@@ -22,51 +22,43 @@
 
 /*----BANNER----*/
 #banner-image {
-    opacity: 80%;
+    opacity: 50%;
     width: 100vw;
     height: 40vh;
     object-fit: cover;
-    position: fixed;
-}
-#banner{
-    padding-right: 0;
-    padding-left: 0;
-}
-#banner-cover{
-    background-color: black;
-    opacity: 60%;
-    margin-top: 20vh;
-    width: 100vw;
-    height: 20vh;
-    position: fixed;
 
 }
 #banner-text-welcome{
     color: #FFFFFF;
-    text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 4vh;
     padding-top: 2.5vh;
     text-decoration: underline;
     font-weight: bold;
     position: center;
+
 }
 .banner-text{
     color: #FFFFFF;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 3.5vh;
-    position: center;
-
-
 }
 
 /*----HOME SCREEN----*/
 .main{
     background-color: #2C3E40;
 
+
 }
 #footer{
     background-color: #73675C;
     height: 6vh;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: aqua;
+}
+#box3{
+    background-color: aqua;
 }

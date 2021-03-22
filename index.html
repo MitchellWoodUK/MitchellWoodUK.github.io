@@ -17,11 +17,11 @@
 </head>
 
 <body class="main">
-
+<!-------------------------NAVBAR--------------------------->
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-sm navbar-dark">
             <div class="container-fluid" >
-                <a id="navbar-title" class="navbar-brand" href="index.html">THE SHEPS</a>
+                <a id="navbar-title" class="fs-1 navbar-brand" href="index.html">THE SHEPS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -52,37 +52,52 @@
     </header>
 
 
-
+<!-------------------------BANNER--------------------------->
+   <!--
     <main class="container-fluid">
         <div class="row" >
-            <div class="col-md col-12" id="banner">
-                <img src="Images/Banner-Image-Home.jpg" class="img-fluid" alt="Banner" id="banner-image">
-                <div class="col-md" id="banner-cover">
-                    <h1 id="banner-text-welcome">WELCOME</h1>
-                    <h2 class="banner-text">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</h2>
-                    <h2 class="banner-text">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</h2>
+            <div class="col-md-12" id="banner">
+                <img src="Images/Banner-Image-Home.jpg" class="img-fluid" alt="Banner" >
+                <div class="col-md container-fluid" id="banner-cover">
+                    <p class="fs-1">WELCOME</p>
+                    <p class="fs-1 banner-text">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</p>
+                    <p class="fs-1 banner-text">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</p>
                 </div>
             </div>
 
         </div>
+-->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Images/Banner-Image-Home.jpg" class="d-block w-100" alt="BannerIMG" id="banner-image">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p class="fs-1" id="banner-text-welcome">WELCOME</p>
+                        <p class="fs-1 banner-text">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</p>
+                        <p class="fs-1 banner-text">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <!-------------------------BOXES--------------------------->
         <div class="row" id="Home-Boxes">
-            <div class="col-md col-4">
+            <div class="col-md-4" id="box1">
                 <h1>COL1</h1>
             </div>
-            <div class="col-md col-4">
+            <div class="col-md-4" id="box2">
                 <h1>COL2</h1>
             </div>
-            <div class="col-md col-4">
+            <div class="col-md-4" id="box3">
                 <h1>COL3</h1>
             </div>
 
         </div>
     </main>
 
-
+<!-------------------------FOOTER--------------------------->
     <footer class="fixed-bottom text-light" id="footer">
-        <div class="container-fluid">
+        <div>
             Footer
         </div>
     </footer>
