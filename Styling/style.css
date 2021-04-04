@@ -1,9 +1,9 @@
 
 /*----NAVBAR----*/
 .navbar{
-    width: 100vw;
+
     background-color: #73675C;
-    height: 12vh;
+
     font-family: 'Comfortaa', cursive;
 }
 #navbar-title{
@@ -22,7 +22,6 @@
 
 /*----BANNER----*/
 #banner-image {
-    opacity: 50%;
     width: 100vw;
     height: 40vh;
     object-fit: cover;
@@ -41,6 +40,7 @@
     color: #FFFFFF;
     text-align: center;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 /*----HOME SCREEN----*/
@@ -48,26 +48,22 @@
     background-color: #2C3E40;
 }
 #Home-Boxes{
-    margin-bottom: 10vh;
+    margin-bottom: 4vh;
 }
-#box1{
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
+
+.card{
     margin-top: 4vh;
+    width: 550px;
+    height: 550px;
 }
-#box2{
+
+
+/*#box3{
     background-color: aqua;
-    height: 500px;
-    width: 500px;
+    height: 550px;
+    width: 550px;
     margin-top: 4vh;
-}
-#box3{
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
-    margin-top: 4vh;
-}
+}*/
 #footer{
     background-color: #73675C;
     height: 6vh;
