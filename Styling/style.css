@@ -1,22 +1,15 @@
 
 /*----NAVBAR----*/
 .navbar{
-
     background-color: #73675C;
-
     font-family: 'Comfortaa', cursive;
+    width: 100%;
 }
 #navbar-title{
-    font-size: 2vw;
     margin-left: 2vw;
 }
-#navbarItems{
-    margin-left: 10vw;
-    font-size: 1.5vw;
-
-}
 .nav-item{
-    padding-right: 5vw;
+    margin-left: 5vw;
 }
 
 
@@ -34,6 +27,7 @@
     text-decoration: underline;
     font-weight: bold;
     position: center;
+    font-size: 2vw;
 
 }
 .banner-text{
@@ -41,7 +35,9 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
+    font-size: 1.5vw;
 }
+
 
 /*----HOME SCREEN----*/
 .main{
@@ -49,40 +45,58 @@
 }
 #Home-Boxes{
     margin-bottom: 4vh;
+
 }
 
-#box1{
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
-    margin-top: 4vh;
+
+/*
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
 }
-#box1-image{
-    height: 550px ;
-    width: 550px;
-    opacity: 90%;
-    position: absolute;
+*/
+.box-heading-text{
+    padding-top: 1vh;
+    color: white;
+    text-align: center;
+}
+
+.box-text{
+    padding-top: 1vh;
+    color: white;
+    text-align: left;
+    font-family: Roboto;
+}
+#box1{
+    height: 450px;
+    width: 450px;
+    margin-top: 4vh;
+    background-image: url(../Images/Home_Image_1.jpg);
+    background-size: cover;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 #box2{
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     margin-top: 4vh;
+    background-image: url(../Images/Home_Image_2.jpg);
+    background-size: cover;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 #box3{
-    background-color: aqua;
-    height: 500px;
-    width: 500px;
+    height: 450px;
+    width: 450px;
     margin-top: 4vh;
+    background-image: url(../Images/Home_Image_3.jpg);
+    background-size: cover;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
-
-/*#box3{
-    background-color: aqua;
-    height: 550px;
-    width: 550px;
-    margin-top: 4vh;
-}*/
 #footer{
     background-color: #73675C;
     height: 6vh;
+    margin-right: 0;
 }

@@ -19,16 +19,16 @@
 <body class="main">
 <!-------------------------NAVBAR--------------------------->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark">
+        <nav class="navbar navbar-expand-xxl navbar-dark">
             <div class="container-fluid" >
-                <a id="navbar-title" class="fs-1 navbar-brand" href="index.html">THE SHEPS</a>
+                <a id="navbar-title" class="navbar-brand fs-1" href="index.html">THE SHEPS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav" id="navbarItems">
+                    <ul class="navbar-nav fs-4" id="navbarItems">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                            <a class="nav-link active"  href="index.html">HOME</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">ABOUT</a>
@@ -53,44 +53,65 @@
 
 
 <!-------------------------BANNER--------------------------->
-   <!--
-    <main class="container-fluid">
-        <div class="row" >
-            <div class="col-md-12" id="banner">
-                <img src="Images/Banner-Image-Home.jpg" class="img-fluid" alt="Banner" >
-                <div class="col-md container-fluid" id="banner-cover">
-                    <p class="fs-1">WELCOME</p>
-                    <p class="fs-1 banner-text">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</p>
-                    <p class="fs-1 banner-text">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</p>
-                </div>
-            </div>
-
-        </div>
--->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="Images/Banner-Image-Home.jpg" class="d-block w-100" alt="BannerIMG" id="banner-image" style="opacity: 50%">
+                    <img src="Images/Banner-Image-Home.jpg" class="d-block w-100" alt="BannerIMG" id="banner-image">
                     <div class="carousel-caption d-none d-md-block">
-                        <p class="fs-2" id="banner-text-welcome">WELCOME</p>
-                        <p class="fs-2 banner-text">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</p>
-                        <p class="fs-2 banner-text">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</p>
+                        <p id="banner-text-welcome">WELCOME</p>
+                        <p class="banner-text">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</p>
+                        <p class="banner-text">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</p>
                     </div>
                 </div>
             </div>
         </div>
 
         <!-------------------------BOXES--------------------------->
-        <div class="row" id="Home-Boxes">
-            <div class="col-md-4 container-sm" id="box1">
-                <h1>COL1</h1>
-                <img src="Images/Home_Image_1.jpg" alt="Pub-Image" id="box1-image">
+        <div class="row gx-0" id="Home-Boxes">
+            <div class="col-md-4 container-md" >
+                <div class="container-fluid" id="box1">
+                    <div class="box-heading-text">
+                        <p class="fs-2 lh-sm">OPENING TIMES</p>
+                        <p class="fs-2 lh-sm">DUE TO COVID-19</p>
+                        <p class="fs-2 lh-sm">Only Takeout & Delivery are Available:</p>
+                    </div>
+                    <div class="box-text lh-sm fs-4">
+                        <p>Monday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOSED<br>
+                        Tuesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOSED<br>
+                        Wednesday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOSED<br>
+                        Thursday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CLOSED<br>
+                        Friday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5PM - 8PM<br>
+                        Saturday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5PM - 8PM<br>
+                        Sunday: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;12PM - 2:30PM</p>
+                    </div>
+                </div>
+
             </div>
-            <div class="col-md-4 container-sm" id="box2">
-                <h1>COL2</h1>
+
+
+            <div class="col-md-4 container-md">
+                <div class="container-fluid" id="box2">
+                    <div class="box-heading-text fs-2">
+                        <h1>SMARTPHONE</h1>
+                        <h1>PUB QUIZ</h1>
+                    </div>
+                    <div class="box-text fs-4" style="text-align: center">
+                        <h2>SADLY SUE TO CURRENT COVID-19 RESTRICTIONS THE QUIZ IS ON HOLD.</h2>
+                        <h3>We Look Forward to Welcoming You Back to Quizzing Soon!</h3>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4 container-sm" id="box3">
-                <h1>COL3</h1>
+
+
+            <div class="col-md-4 container-md">
+                <div class="container-fluid fs-2" id="box3">
+                    <div class="box-heading-text">
+                        <h1>BIG SCREEN LIVE SPORT</h1>
+                    </div>
+                    <div class="box-text fs-4" style="text-align: center">
+                        <h2>WHEN OUR RESTAURANT REOPENS BIG SCREEN SPORT WILL START AGAIN IN A SAFE AND ORGANISED MANNER</h2>
+                    </div>
+                </div>
             </div>
 
         </div>
