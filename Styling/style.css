@@ -69,37 +69,20 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-family: Roboto;
 }
 #box1{
-    width: 100%;
-    min-height: 20vw;
-    margin-top: 4vh;
     background-image: url(../Images/Home_Image_1.jpg);
     background-size: cover;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    min-height: 50vh;
 }
 #box2{
-    width: 100%;
-    min-height: 20vw;
-    margin-top: 4vh;
     background-image: url(../Images/Home_Image_2.jpg);
     background-size: cover;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    min-height: 50vh;
 }
 #box3{
-    width: 100%;
-    min-height: 20vw;
-    margin-top: 4vh;
     background-image: url(../Images/Home_Image_3.jpg);
     background-size: cover;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
+    min-height: 50vh;
+
 }
 #footer{
     background-color: #73675C;
