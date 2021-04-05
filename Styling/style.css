@@ -20,23 +20,25 @@
     object-fit: cover;
 
 }
-#banner-text-welcome{
+.banner-text-welcome{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     padding-top: 2.5vh;
     text-decoration: underline;
     font-weight: bold;
     position: center;
-    font-size: 2.5vw;
-
 }
 .banner-text{
     color: #FFFFFF;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    font-size: 1.5vw;
 }
+.card{
+    border-color: white;
+    border-collapse: initial;
+}
+
 
 
 /*----HOME SCREEN----*/
@@ -82,6 +84,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 #footer{
     background-color: #73675C;
-    height: 6vh;
     margin-right: 0;
+}
+.footer-icons{
+    text-align: right;
 }
