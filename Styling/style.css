@@ -73,6 +73,19 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-size: cover;
     min-height: 50vh;
 }
+.section{
+    height: 100vh;
+}
+.specials-images{
+    height: 40vh;
+    width: 40vh;
+    object-fit: cover;
+}
+.page-divider{
+    color: white;
+    border: 1.5px solid white;
+}
+/*----FOOTER----*/
 #footer{
     background-color: #73675C;
     margin-right: 0;
