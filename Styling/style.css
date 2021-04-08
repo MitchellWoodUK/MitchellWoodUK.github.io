@@ -74,7 +74,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     min-height: 50vh;
 }
 .section{
-    height: 100vh;
+    min-height: 100vh;
 }
 /*----SPECIALS----*/
 .specials-images{
@@ -85,6 +85,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .page-divider{
     color: white;
     border: 1px solid white;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
 }
 /*----FOOTER----*/
 #footer{
