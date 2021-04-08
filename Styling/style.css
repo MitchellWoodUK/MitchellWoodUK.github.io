@@ -46,12 +46,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
 
 }
 */
-.box-heading-text{
+.heading-text{
     padding-top: 1vh;
     color: white;
     text-align: center;
 }
-.box-text{
+.text{
     padding-top: 1vh;
     color: white;
     text-align: left;
