@@ -1,3 +1,11 @@
+/*
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+*/
+
 /*----NAVBAR----*/
 .navbar{
     background-color: #73675C;
@@ -10,12 +18,17 @@
 .nav-item{
     margin-left: 5vw;
 }
-/*----BANNER----*/
+/*----HOME SCREEN BANNER----*/
 #banner-image {
     width: 100vw;
     height: 40vh;
     object-fit: cover;
 
+}
+#about-banner-image{
+    width: 100vw;
+    height: 20vh;
+    object-fit: cover;
 }
 .banner-text-welcome{
     color: #FFFFFF;
@@ -25,11 +38,52 @@
     font-weight: bold;
     position: center;
 }
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .banner-text-welcome{
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        padding-top: 2.5vh;
+        text-decoration: underline;
+        font-weight: bold;
+        position: center;
+        font-size: 4.5vw !important;
+    }
+}
+.booking-text{
+    border-style: solid;
+    border-width: 4px;
+    font-weight: lighter;
+    background-color: rgba(31,31,31,0.8);
+}
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .booking-text{
+        color: white;
+        border-style: solid;
+        border-width: 4px;
+        font-size: 4vw !important;
+        font-weight: lighter;
+    }
+}
 .banner-text{
     color: #FFFFFF;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
+}
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .banner-text{
+        color: #FFFFFF;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+        font-weight: lighter;
+        font-size: 3.5vw !important;
+    }
 }
 .card{
     border-color: white;
@@ -39,13 +93,7 @@
 .main{
     background-color: #2C3E40;
 }
-/*
-@media only screen
-and (max-device-width: 1000px)
-and (-webkit-min-device-pixel-ratio: 2) {
 
-}
-*/
 .heading-text{
     padding-top: 1vh;
     color: white;
@@ -54,7 +102,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .text{
     padding-top: 1vh;
     color: white;
-    text-align: left;
     font-family: Roboto;
     text-align: center;
 }
@@ -76,7 +123,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .section{
     min-height: 100vh;
 }
-/*----SPECIALS----*/
+/*----HOME SCREEN SPECIALS----*/
 .specials-images{
     height: 40vh;
     width: 40vh;
@@ -89,6 +136,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
     margin-left: 5vw;
     margin-right: 5vw;
 
+}
+/*----ABOUT PAGE----*/
+#about-caption{
+    background-color: rgba(30,30,30,0.6);
+}
+#about-section{
+    background-color: #BFB6AE;
+}
+#about-text{
+    text-align: left;
+    color: black;
 }
 /*----FOOTER----*/
 #footer{

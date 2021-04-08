@@ -21,7 +21,7 @@
 <body class="main">
 <!-------------------------NAVBAR--------------------------->
 <header>
-    <nav class="navbar navbar-expand-xxl navbar-dark">
+    <nav class="navbar fixed-top navbar-expand-xxl navbar-dark">
         <div class="container-fluid">
             <a id="navbar-title" class="navbar-brand fs-1" href="index.html">THE SHEPS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,7 +34,7 @@
                         <a class="nav-link active" href="index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT</a>
+                        <a class="nav-link" href="about.html">ABOUT</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">FOOD</a>
@@ -56,23 +56,14 @@
 
 <main>
     <!-------------------------BANNER--------------------------->
-    <div class="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carouselExampleCaptions pt-5" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="Images/Banner-Image-Home.jpg" class="d-block w-100" alt="BannerIMG" id="banner-image">
+                <img src="Images/Banner_Image_Home.jpg" class="d-block w-100" alt="BannerIMG" id="banner-image" style="opacity: 60%;">
                 <div class="carousel-caption">
-                    <div class="card bg-transparent mb-15 top-0 start-50 translate-middle">
-                        <div class="card-body">
-                            <h1><a class="text-decoration-none" target="_blank" href="#" style="color: white">BOOK
-                                NOW</a></h1>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="banner-text-welcome fs-2">WELCOME</p>
-                        <p class="banner-text fs-3 lh-1">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES</p>
-                        <p class="banner-text fs-3 lh-1">TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE
-                            FOR DETAILS</p>
-                    </div>
+                    <h1><a class="booking-text text-decoration-none px-1 py-1 rounded" href="#" style="color: white">BOOK NOW</a></h1>
+                    <p class="banner-text-welcome fs-2">WELCOME</p>
+                    <p class="banner-text fs-3 lh-sm">HOME OF GOOD FOOD, GOOD ALES AND GOOD TIMES<br>TAKEAWAY AVAILABLE FOR COLLECTION AND DELIVERY - SEE FOOD PAGE FOR DETAILS</p>
                 </div>
             </div>
         </div>
@@ -199,7 +190,7 @@
             </div>
             <div class="col-md pt-3">
                 <h2>HOURS</h2>
-                <h4 class="footer-text">Takeout and Deliverys</h4>
+                <h4 class="footer-text">Takeout and Delivery's</h4>
                 <h5 class="footer-text pt-2">Monday: CLOSED<br>Tuesday: CLOSED<br>Wednesday: CLOSED<br>Thursday:
                     CLOSED<br>Friday: 5PM-8PM<br>Saturday: 5PM-8PM<br>Sunday: 12PM-2:30PM</h5>
             </div>
@@ -213,7 +204,7 @@
                         CARD</a></h1>
                 </div>
                 <div>
-                    <h1 class="book"><a class="text-decoration-none" target="_blank" href="#" style="color: white"><i
+                    <h1 class="book"><a class="text-decoration-none" href="#" style="color: white"><i
                             class="bi bi-book"></i> BOOK NOW</a></h1>
                 </div>
                 <div>
@@ -222,7 +213,7 @@
                             class="bi bi-facebook"></i> LIKE US</a></h1>
                 </div>
             </div>
-            <div class="col-md footer-icons pe-4 pt-3">
+            <div class="col-md pe-4 pt-3">
                 <div>
                     <h1 class="email"><a class="text-decoration-none" target="_blank" href="#" style="color: white"><i
                             class="bi bi-envelope"></i> EMAIL US</a></h1>
