@@ -148,6 +148,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     text-align: left;
     color: black;
 }
+.about-images{
+    object-fit: cover;
+    min-height: 20px;
+}
 /*----FOOTER----*/
 #footer{
     background-color: #73675C;
