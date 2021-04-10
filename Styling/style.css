@@ -148,10 +148,38 @@ and (-webkit-min-device-pixel-ratio: 2) {
     text-align: left;
     color: black;
 }
-.about-images{
+
+
+
+
+
+.about-images1{
     object-fit: cover;
-    min-height: 20px;
+    width: 25vw;
 }
+.about-images2{
+    object-fit: cover;
+    width: 12vw;
+    min-height: 30vh;
+
+
+}
+.about-images3{
+    object-fit: cover;
+    width: 12vw;
+    min-height: 30vh;
+}
+.about-images4{
+    object-fit: cover;
+    width: 25vw;
+}
+
+
+
+
+
+
+
 /*----FOOTER----*/
 #footer{
     background-color: #73675C;
