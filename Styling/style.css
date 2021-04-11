@@ -30,6 +30,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height: 20vh;
     object-fit: cover;
 }
+#banner-image-food{
+    width: 100vw;
+    height: 95vh;
+    object-fit: cover;
+    opacity: 85%;
+}
 .banner-text-welcome{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -203,6 +209,16 @@ and (-webkit-min-device-pixel-ratio: 2) {
 }
 .about-image-container{
     display: inline-block;
+}
+/*----FOOD SCREEN----*/
+.scroll-container{
+    height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+}
+.food-section{
+    height: 100vh;
+    scroll-snap-align: center;
 }
 /*----FOOTER----*/
 #footer{
