@@ -126,9 +126,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-size: cover;
     min-height: 50vh;
 }
-.section{
-    min-height: 100vh;
-}
 /*----HOME SCREEN SPECIALS----*/
 .specials-images{
     height: 40vh;
@@ -211,14 +208,46 @@ and (-webkit-min-device-pixel-ratio: 2) {
     display: inline-block;
 }
 /*----FOOD SCREEN----*/
-.scroll-container{
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+.food-text{
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2.5vh;
+    font-weight: bold;
 }
-.food-section{
-    height: 100vh;
-    scroll-snap-align: center;
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .food-text{
+        font-family: 'Roboto', sans-serif;
+        padding-top: 2.5vh;
+        font-weight: bold;
+        font-size: 4.5vw !important;
+    }
+}
+#section-1{
+    background-image: url(../Images/Food_Banner.jpg);
+    background-size: cover;
+}
+.food-banner-text{
+    padding-top: 75vh;
+}
+.section-text{
+    padding-top: 50vh;
+}
+#section-2{
+    background-image: url(../Images/MainMenu_Image.jpg);
+    background-size: cover;
+}
+#section-3{
+    background-image: url(../Images/Takeaway_Image.jpg);
+    background-size: cover;
+}
+#section-4{
+    background-image: url(../Images/Buffet_Image.jpg);
+    background-size: cover;
+}
+#section-5{
+    background-image: url(../Images/Gluten-Free_Image.jpg);
+    background-size: cover;
 }
 /*----FOOTER----*/
 #footer{
