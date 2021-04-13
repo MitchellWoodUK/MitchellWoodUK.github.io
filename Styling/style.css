@@ -256,6 +256,11 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-image: url(../Images/Gluten-Free_Image.jpg);
     background-size: cover;
 }
+/*----Updates----*/
+.heading-text{
+    padding-top: 1vh;
+    text-align: left;
+}
 /*----FOOTER----*/
 #footer{
     background-color: #73675C;
