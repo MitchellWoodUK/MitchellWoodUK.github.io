@@ -228,7 +228,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-size: cover;
 }
 .food-banner-text{
-    padding-top: 75vh;
+    padding-top: 60vh;
+}
+@media only screen
+and (max-device-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    .food-banner-text{
+        padding-top: 50vh;
+    }
 }
 .section-text{
     padding-top: 50vh;
