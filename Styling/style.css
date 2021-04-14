@@ -257,7 +257,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-size: cover;
 }
 /*----Updates----*/
-.heading-text{
+.updates-heading-text{
     padding-top: 1vh;
     text-align: left;
 }
