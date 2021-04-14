@@ -144,7 +144,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #about-caption{
     background-color: rgba(30,30,30,0.6);
 }
-#about-section{
+.about-section{
     background-color: #BFB6AE;
 }
 #about-text{
@@ -260,6 +260,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .heading-text{
     padding-top: 1vh;
     text-align: left;
+}
+#more{
+    display: none;
 }
 /*----FOOTER----*/
 #footer{
