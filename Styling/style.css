@@ -256,13 +256,29 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-image: url(../Images/Gluten-Free_Image.jpg);
     background-size: cover;
 }
-/*----Updates----*/
+/*----UPDATES----*/
 .updates-heading-text{
     padding-top: 1vh;
     text-align: left;
 }
 #more{
     display: none;
+}
+/*----CONTACT----*/
+#contact-image{
+    background-image: url(../Images/Contact_Image.jpg);
+    background-size: cover;
+}
+.contact-heading-text{
+    padding-top: 1vh;
+    color: white;
+    text-align: left;
+}
+.contact-text{
+    padding-top: 1vh;
+    color: white;
+    font-family: Roboto;
+    text-align: left;
 }
 /*----FOOTER----*/
 #footer{
