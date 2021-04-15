@@ -36,6 +36,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     object-fit: cover;
     opacity: 85%;
 }
+#booking-banner-image {
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+
+
+}
 .banner-text-welcome{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
