@@ -7,12 +7,12 @@ function readMore() {
         dots.style.display = "inline";
         btnText.innerHTML = "Read Past Updates";
         moreText.style.display = "none";
-        btnText.style.fontSize = "1vw";
+        btnText.style.minHeight = "50px";
     }
     else{
         dots.style.display = "none";
         btnText.innerHTML = "Read Less";
         moreText.style.display = "inline";
-        btnText.style.fontSize = "1vw";
+        btnText.style.minHeight = "50px";
     }
 }
