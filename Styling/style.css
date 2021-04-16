@@ -40,9 +40,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 100vw;
     height: 40vh;
     object-fit: cover;
-
-
 }
+
 .banner-text-welcome{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -150,6 +149,7 @@ and (-webkit-min-device-pixel-ratio: 2) {
 /*----ABOUT PAGE----*/
 #about-caption{
     background-color: rgba(30,30,30,0.6);
+    width: 100%;
 }
 .about-section{
     background-color: #BFB6AE;
@@ -287,6 +287,27 @@ and (-webkit-min-device-pixel-ratio: 2) {
     color: white;
     font-family: Roboto;
     text-align: left;
+}
+/*----BOOKING----*/
+#booking-image{
+    background-image: url(../Images/Booking_Image.jpg);
+    background-size: cover;
+    height: 60vh;
+
+}
+#booking-form{
+    width: 40vw;
+}
+#booking-banner-text{
+    font-size: 1.5vw;
+}
+
+@media only screen
+and (max-device-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #booking-banner-text{
+        font-size: 3vw;
+    }
 }
 /*----FOOTER----*/
 #footer{
