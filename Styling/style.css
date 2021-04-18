@@ -309,6 +309,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 3vw;
     }
 }
+/*----SPORTS----*/
+#sports-section{
+    min-height: 100vh;
+}
+#sports-image{
+    width: 40vh;
+    object-fit: cover;
+}
 /*----FOOTER----*/
 #footer{
     background-color: #73675C;
