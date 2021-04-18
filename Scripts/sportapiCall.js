@@ -2,7 +2,7 @@ function getAPIData()
 {
     var xhttp = new XMLHttpRequest();
 
-    var key = '808';
+    var key = '1';
     var searchValue = document.getElementById('search-text').value;
     console.log(searchValue);
     var url = 'https://www.thesportsdb.com/api/v1/json/1/searchevents.php' + key + '?e=' + searchValue;
@@ -18,7 +18,7 @@ function getAPIData()
             data = JSON.parse(this.responseText);
             console.log(data);
 
-            document.getElementById('title').innerHTML = data.Name;
+            document.getElementById('event').innerHTML = data.Name;
           //  document.getElementById('year').innerHTML = data.Year;
            // document.getElementById('plot').innerHTML = data.Plot;
            // document.getElementById('poster').src = data.Poster;
