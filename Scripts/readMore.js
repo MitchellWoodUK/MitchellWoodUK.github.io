@@ -1,3 +1,4 @@
+//JavaScript function to create a Read More button, to make collapsing information.
 function readMore() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");

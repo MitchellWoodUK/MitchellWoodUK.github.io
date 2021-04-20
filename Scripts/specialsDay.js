@@ -1,10 +1,11 @@
+//JavaScript that finds what day it is and displays the relevant special of the day on the site.
 var today = new Date();
 var dayNow = today.getDay();
 var day = ' ';
 
 console.log(today);
 console.log(dayNow);
-
+//If statements to decide what is displayed depending on what day it is.
 if (dayNow == 0){
     day = 'Sunday Carvery';
 }

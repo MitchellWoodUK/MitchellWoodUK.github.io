@@ -1,225 +1,211 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link href="Styling/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>The Shepherds Rest</title>
-</head>
+        <!--Required Links-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link href="Styling/style.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-<body class="main">
-<!-------------------------NAVBAR--------------------------->
-<header>
-    <nav class="navbar fixed-top navbar-expand-xxl navbar-dark">
-        <div class="container-fluid">
-            <a id="navbar-title" class="navbar-brand fs-1" href="index.html">THE SHEPS</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav fs-4" id="navbarItems">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">ABOUT</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="food.html">FOOD</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="sports.html">SPORTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="updates.html">UPDATES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-</header>
+        <title>The Shepherds Rest</title>
+    </head>
 
-<main>
-    <!-------------------------BANNER--------------------------->
-    <div class="carouselExampleCaptions pt-5 carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="Images/Booking_Banner.jpg" class="d-block w-100" alt="BannerIMG" id="booking-banner-image" style="opacity: 60%;">
-            </div>
-        </div>
-    </div>
-    <div class="row gx-0">
-        <div class="col-md-12" id="about-caption">
-            <h1 class="heading-text" style="text-decoration: underline">BOOKING</h1>
-            <p class="text" id="booking-banner-text">PLEASE SELECT A DATE, TIME, AND PARTY SIZE FOR BOOKING:</p>
-        </div>
-    </div>
-    <!-------------------------BOOKING--------------------------->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6 mx-5" id="booking-form">
-                <label for="select-date" class="form-label text fs-5 mt-5">Pick a Date:</label>
-                <select class="form-select " id="select-date" aria-label="Default select example">
-                    <option selected>Select Date:</option>
-                    <option value="1">April 1st</option>
-                    <option value="2">April 2nd</option>
-                    <option value="3">April 3rd</option>
-                    <option value="4">April 4th</option>
-                    <option value="5">April 5th</option>
-                    <option value="6">April 6th</option>
-                    <option value="7">April 7th</option>
-                    <option value="8">April 8th</option>
-                    <option value="9">April 9th</option>
-                    <option value="10">April 10th</option>
-                    <option value="11">April 11th</option>
-                    <option value="12">April 12th</option>
-                    <option value="13">April 13th</option>
-                    <option value="14">April 14th</option>
-                    <option value="15">April 15th</option>
-                    <option value="16">April 16th</option>
-                    <option value="17">April 17th</option>
-                    <option value="18">April 18th</option>
-                    <option value="19">April 19th</option>
-                    <option value="20">April 20th</option>
-                    <option value="21">April 21st</option>
-                    <option value="22">April 22nd</option>
-                    <option value="23">April 23rd</option>
-                    <option value="24">April 24th</option>
-                    <option value="25">April 25th</option>
-                    <option value="26">April 26th</option>
-                    <option value="27">April 27th</option>
-                    <option value="28">April 28th</option>
-                    <option value="29">April 29th</option>
-                    <option value="30">April 30th</option>
-                </select>
+    <!-------------------------NAVBAR SYNTAX--------------------------->
 
-                <label for="select-time" class="form-label text fs-5 mt-3">Pick a Time:</label>
-                <select class="form-select" aria-label="Default select example" id="select-time">
-                    <option selected>Select Time:</option>
-                    <option value="1">14:00</option>
-                    <option value="2">14:30</option>
-                    <option value="3">15:00</option>
-                    <option value="4">15:30</option>
-                    <option value="5">16:00</option>
-                    <option value="6">16:30</option>
-                    <option value="7">17:00</option>
-                    <option value="8">17:30</option>
-                    <option value="9">18:00</option>
-                    <option value="10">18:30</option>
-                    <option value="11">19:00</option>
-                    <option value="12">19:30</option>
-                    <option value="13">20:00</option>
-                    <option value="14">20:30</option>
-                    <option value="15">21:00</option>
-                    <option value="16">21:30</option>
-                    <option value="17">22:00</option>
-                </select>
+    <body class="main">
+        <header>
+            <!--Using a Bootstrap 5 fixed-top navigation bar.-->
+            <nav class="navbar fixed-top navbar-expand-xxl navbar-dark">
+                <div class="container-fluid">
+                    <a id="navbar-title" class="navbar-brand fs-1 ms-5" href="index.html">THE SHEPS</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav fs-4" id="navbarItems">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="food.html">FOOD</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="sports.html">SPORTS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="updates.html">UPDATES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">CONTACT</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
 
-                <label for="party-size" class="form-label text fs-5 mt-3">Number of Guests:</label>
-                <select class="form-select" aria-label="Default select example" id="party-size">
-                    <option selected>Select Party-Size:</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">6</option>
-                </select>
-                <p class="contact-text lh-1">Due to current Covid-19 restrictions, only 6 guests can be on one booking.</p>
+            <!-------------------------BANNER SYNTAX--------------------------->
 
-                <div class="d-grid gap-2 py-5">
-                    <button class="btn btn-primary" type="button">SUBMIT</button>
+            <!--Using a Bootstrap 5 carousel to act as a banner.-->
+            <div class="carouselExampleCaptions pt-5 carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Images/Booking_Banner.jpg" class="d-block w-100" alt="BannerIMG" id="booking-banner-image" style="opacity: 60%;">
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 my-5" id="booking-image">
-            </div>
-        </div>
-    </div>
-
-
-
-
-
-
-</main>
-<!-------------------------FOOTER--------------------------->
-<footer class="text-light pb-3" id="footer">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md pt-3 ps-3">
-                <h2>VISIT US</h2>
-                <h5 class="footer-text pt-2">64 Galmington Road<br>Taunton<br>Somerset<br>TA1 5NZ<br><br>T: 01823 339602<br>E: info@the-sheps.net</h5>
-            </div>
-            <div class="col-md pt-3">
-                <h2>HOURS</h2>
-                <h4 class="footer-text">Takeout and Delivery's</h4>
-                <h5 class="footer-text pt-2">Monday: CLOSED<br>Tuesday: CLOSED<br>Wednesday: CLOSED<br>Thursday:
-                    CLOSED<br>Friday: 5PM-8PM<br>Saturday: 5PM-8PM<br>Sunday: 12PM-2:30PM</h5>
-            </div>
-            <div class="col-md">
-
-            </div>
-            <div class="col-md">
-                <div>
-                    <h1 class="gift-card pt-3"><a class="text-decoration-none" target="_blank" href="#"
-                                                  style="color: white"><i class="bi bi-credit-card-2-front"></i> GIFT
-                        CARD</a></h1>
-                </div>
-                <div>
-                    <h1 class="facebook"><a class="text-decoration-none" target="_blank"
-                                            href="https://www.facebook.com/thesheps1" style="color: white"><i
-                            class="bi bi-facebook"></i> LIKE US</a></h1>
+            <!--Page Header-->
+            <div class="row gx-0">
+                <div class="col-md-12" id="about-caption">
+                    <h1 class="heading-text" style="text-decoration: underline">BOOKING</h1>
+                    <p class="text" id="booking-banner-text">PLEASE SELECT A DATE, TIME, AND PARTY SIZE FOR BOOKING:</p>
                 </div>
             </div>
-            <div class="col-md pe-4 pt-3">
-                <div>
-                    <h1 class="email"><a class="text-decoration-none" target="_blank" href="#" style="color: white"><i
-                            class="bi bi-envelope"></i> EMAIL US</a></h1>
+
+            <!-------------------------BOOKING SYNTAX--------------------------->
+
+            <!--Using Bootstrap 5 forms to display booking selection for the user.-->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 mx-5" id="booking-form">
+                        <!--Date Selection-->
+                        <label for="select-date" class="form-label text fs-5 mt-5">Pick a Date:</label>
+                        <select class="form-select " id="select-date" aria-label="Default select example">
+                            <option selected>Select Date:</option>
+                            <option value="1">April 1st</option>
+                            <option value="2">April 2nd</option>
+                            <option value="3">April 3rd</option>
+                            <option value="4">April 4th</option>
+                            <option value="5">April 5th</option>
+                            <option value="6">April 6th</option>
+                            <option value="7">April 7th</option>
+                            <option value="8">April 8th</option>
+                            <option value="9">April 9th</option>
+                            <option value="10">April 10th</option>
+                            <option value="11">April 11th</option>
+                            <option value="12">April 12th</option>
+                            <option value="13">April 13th</option>
+                            <option value="14">April 14th</option>
+                            <option value="15">April 15th</option>
+                            <option value="16">April 16th</option>
+                            <option value="17">April 17th</option>
+                            <option value="18">April 18th</option>
+                            <option value="19">April 19th</option>
+                            <option value="20">April 20th</option>
+                            <option value="21">April 21st</option>
+                            <option value="22">April 22nd</option>
+                            <option value="23">April 23rd</option>
+                            <option value="24">April 24th</option>
+                            <option value="25">April 25th</option>
+                            <option value="26">April 26th</option>
+                            <option value="27">April 27th</option>
+                            <option value="28">April 28th</option>
+                            <option value="29">April 29th</option>
+                            <option value="30">April 30th</option>
+                        </select>
+                        <!--Time Selection-->
+                        <label for="select-time" class="form-label text fs-5 mt-3">Pick a Time:</label>
+                        <select class="form-select" aria-label="Default select example" id="select-time">
+                            <option selected>Select Time:</option>
+                            <option value="1">14:00</option>
+                            <option value="2">14:30</option>
+                            <option value="3">15:00</option>
+                            <option value="4">15:30</option>
+                            <option value="5">16:00</option>
+                            <option value="6">16:30</option>
+                            <option value="7">17:00</option>
+                            <option value="8">17:30</option>
+                            <option value="9">18:00</option>
+                            <option value="10">18:30</option>
+                            <option value="11">19:00</option>
+                            <option value="12">19:30</option>
+                            <option value="13">20:00</option>
+                            <option value="14">20:30</option>
+                            <option value="15">21:00</option>
+                            <option value="16">21:30</option>
+                            <option value="17">22:00</option>
+                        </select>
+                        <!--Amount of Guests Selection-->
+                        <label for="party-size" class="form-label text fs-5 mt-3">Number of Guests:</label>
+                        <select class="form-select" aria-label="Default select example" id="party-size">
+                            <option selected>Select Party-Size:</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                        <p class="contact-text lh-1">Due to current Covid-19 restrictions, only 6 guests can be on one booking.</p>
+                        <!--Submit-->
+                        <div class="d-grid gap-2 py-5">
+                            <button class="btn btn-primary" type="button">SUBMIT</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 my-5" id="booking-image">
+                    </div>
                 </div>
-                <div>
-                    <h1 class="reviews"><a class="text-decoration-none" target="_blank"
-                                           href="https://www.tripadvisor.co.uk/UserReviewEdit-g190730-d4722608-Shepherds_Rest-Taunton_Somerset_England.html"
-                                           style="color: white"><i class="bi bi-shop"></i> LEAVE A REVIEW</a></h1>
+            </div>
+        </main>
+
+        <!-------------------------FOOTER SYNTAX--------------------------->
+
+        <!--Footer with all relevant information on for quick access.-->
+        <footer class="text-light pb-3" id="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--Address Information-->
+                    <div class="col-md pt-3 ps-3">
+                        <h2>VISIT US</h2>
+                        <h5 class="footer-text pt-2">64 Galmington Road<br>Taunton<br>Somerset<br>TA1 5NZ<br><br>T: 01823 339602<br>E: info@the-sheps.net</h5>
+                    </div>
+                    <!--Opening Hours Information-->
+                    <div class="col-md pt-3">
+                        <h2>HOURS</h2>
+                        <h4 class="footer-text">Takeout and Delivery's</h4>
+                        <h5 class="footer-text pt-2">Monday: CLOSED<br>Tuesday: CLOSED<br>Wednesday: CLOSED<br>Thursday:
+                            CLOSED<br>Friday: 5PM-8PM<br>Saturday: 5PM-8PM<br>Sunday: 12PM-2:30PM</h5>
+                    </div>
+                    <!--Empty Space-->
+                    <div class="col-md"></div>
+                    <!--Links-->
+                    <div class="col-md pt-3">
+                        <div>
+                            <h1 class="facebook"><a class="text-decoration-none" target="_blank" href="https://www.facebook.com/thesheps1" style="color: white"><i class="bi bi-facebook"></i> LIKE US</a></h1>
+                        </div>
+                        <div>
+                            <h1 class="email"><a class="text-decoration-none" href="contact.html" style="color: white"><i class="bi bi-envelope"></i> EMAIL US</a></h1>
+                        </div>
+                    </div>
+                    <div class="col-md pe-4 pt-3">
+                        <div>
+                            <h1 class="reviews"><a class="text-decoration-none" target="_blank" href="https://www.tripadvisor.co.uk/UserReviewEdit-g190730-d4722608-Shepherds_Rest-Taunton_Somerset_England.html" style="color: white"><i class="bi bi-shop"></i> LEAVE A REVIEW</a></h1>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <h6 class="footer-text pt-3 pe-3" style="text-align: right;">The Shepherds Rest <i class="bi bi-badge-tm"></i></h6>
+                    </div>
                 </div>
-
             </div>
-            <div class="col-md">
-                <h6 class="footer-text pt-3 pe-3" style="text-align: right;">The Shepherds Rest <i
-                        class="bi bi-badge-tm"></i></h6>
-            </div>
-        </div>
+        </footer>
 
-    </div>
-</footer>
+        <!--SCRIPTS-->
 
-
-<!-- Optional JavaScript; choose one of the two! -->
-
-<!-- Option 1: Bootstrap Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-<!-- Option 2: Separate Popper and Bootstrap JS -->
-<!--
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
--->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
-</body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
 </html>

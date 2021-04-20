@@ -1,29 +1,19 @@
-/*
-@media only screen
-and (max-device-width: 1000px)
-and (-webkit-min-device-pixel-ratio: 2) {
-
-}
-*/
-
-/*----NAVBAR----*/
+/*----NAVBAR STYLING----*/
 .navbar{
     background-color: #73675C;
     font-family: 'Comfortaa', cursive;
     width: 100%;
 }
-#navbar-title{
-    margin-left: 2vw;
-}
 .nav-item{
     margin-left: 5vw;
 }
-/*----HOME SCREEN BANNER----*/
-#banner-image {
+
+
+/*----BANNER STYLINGS----*/
+#banner-image{
     width: 100vw;
     height: 40vh;
     object-fit: cover;
-
 }
 #about-banner-image{
     width: 100vw;
@@ -41,7 +31,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     height: 40vh;
     object-fit: cover;
 }
-
 .banner-text-welcome{
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
@@ -101,11 +90,12 @@ and (-webkit-min-device-pixel-ratio: 2) {
     border-color: white;
     width: 15vw;
 }
-/*----HOME SCREEN----*/
+
+
+/*----HOME SCREEN STYLING----*/
 .main{
     background-color: #2C3E40;
 }
-
 .heading-text{
     padding-top: 1vh;
     color: white;
@@ -132,7 +122,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-size: cover;
     min-height: 50vh;
 }
-/*----HOME SCREEN SPECIALS----*/
+
+
+/*----HOME SCREEN SPECIALS STYLING----*/
 .specials-images{
     height: 40vh;
     width: 40vh;
@@ -144,9 +136,10 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
-
 }
-/*----ABOUT PAGE----*/
+
+
+/*----ABOUT PAGE STYLING----*/
 #about-caption{
     background-color: rgba(30,30,30,0.6);
     width: 100%;
@@ -168,7 +161,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
     .about-images1{
         object-fit: cover;
         width: 75vw;
-
     }
 }
 .about-images2{
@@ -214,7 +206,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 .about-image-container{
     display: inline-block;
 }
-/*----FOOD SCREEN----*/
+
+
+/*----FOOD SCREEN STYLING----*/
 .food-text{
     font-family: 'Roboto', sans-serif;
     padding-top: 2.5vh;
@@ -263,7 +257,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     background-image: url(../Images/Gluten-Free_Image.jpg);
     background-size: cover;
 }
-/*----UPDATES----*/
+
+
+/*----UPDATES PAGE STYLING----*/
 .updates-heading-text{
     padding-top: 1vh;
     text-align: left;
@@ -271,7 +267,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #more{
     display: none;
 }
-/*----CONTACT----*/
+
+
+/*----CONTACT PAGE STYLING----*/
 #contact-image{
     background-image: url(../Images/Contact_Image.jpg);
     background-size: cover;
@@ -288,12 +286,13 @@ and (-webkit-min-device-pixel-ratio: 2) {
     font-family: Roboto;
     text-align: left;
 }
-/*----BOOKING----*/
+
+
+/*----BOOKING PAGE STYLING----*/
 #booking-image{
     background-image: url(../Images/Booking_Image.jpg);
     background-size: cover;
     height: 60vh;
-
 }
 #booking-form{
     width: 40vw;
@@ -301,7 +300,6 @@ and (-webkit-min-device-pixel-ratio: 2) {
 #booking-banner-text{
     font-size: 1.5vw;
 }
-
 @media only screen
 and (max-device-width: 768px)
 and (-webkit-min-device-pixel-ratio: 2) {
@@ -309,7 +307,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
         font-size: 3vw;
     }
 }
-/*----SPORTS----*/
+
+
+/*----SPORTS PAGE STYLING----*/
 #sports-section{
     min-height: 100vh;
 }
@@ -317,7 +317,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
     width: 40vh;
     object-fit: cover;
 }
-/*----FOOTER----*/
+
+
+/*----FOOTER STYLING----*/
 #footer{
     background-color: #73675C;
     margin-right: 0;
